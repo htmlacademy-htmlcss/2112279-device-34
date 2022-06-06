@@ -1,0 +1,66 @@
+@font-face{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    src: url(".../fonts/rubik/rubik-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    src: url(".../fonts/rubik/rubik-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face{
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  src: url(".../fonts/raleway/raleway-800.woff2") format("woff2");
+  font-display: swap; 
+}
+
+body{
+    color: #000;
+    background-color: #fff;
+}
+
+.page-header{
+    background-color: #FFE17F;
+}
+
+.page-header a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.header-catalog{
+    text-transform: uppercase;   
+}
+
+.navigation-list{
+    list-style-type: none;
+}
+
+.navigation-list-services{
+    text-transform: uppercase;
+}
+
+.popular-product-description b{
+    text-transform: uppercase;
+}
+
+.popular-product-description p{
+    color: #444;
+}
+
+.more-info-button{
+    text-transform: uppercase;
+}
+
+.popular-product-characteristic{
+    color: #444;
+}
+
