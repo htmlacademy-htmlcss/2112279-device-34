@@ -831,14 +831,6 @@ body {
     margin-right: 40px;
 }
 
-
-/* .products-cards-block {
-    display: flex;
-    background-color: #fff;
-    width: 760px;
-    margin: 70px 40px 44px;
-} */
-
 .products-list {
     display: grid;
     grid-template-columns: 360px 360px;
