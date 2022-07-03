@@ -60,7 +60,7 @@ body {
 .page-header {
     background: linear-gradient(#FFFFFF 14.28%, #FFE17F 14.28%, #FFE17F 85.72%);
     width: 1160px; 
-    min-height: 186px;
+    min-height: 175px;
     margin: 0 auto;
     margin-top: 15px;
 }
@@ -151,6 +151,7 @@ body {
 .popular-product-block {
     display: flex;
     justify-content: space-between;
+    height: 522px;
     background: linear-gradient(#FFE17F 26.78%, #FFFFFF 26.78%, #FFFFFF 73.22%);
 }
 
@@ -169,8 +170,19 @@ body {
     display: block;
     font-weight: 700;
     font-size: 180px;
-    height: 135px;
+    width: 250px;
+    line-height: 135px;
+    margin-top: 13.61px;
+    margin-left: auto;
+    margin-right: 49px;
+    margin-bottom: -95px;
+    text-align: right;
     color: #fff;
+}
+
+
+.popular-product-description {
+    z-index: 1;
 }
 
 .popular-product-description b {
@@ -819,9 +831,11 @@ body {
     margin-right: 40px;
 }
 
-
-.products-cards-block {
-    display: flex;
+.products-list {
+    display: grid;
+    grid-template-columns: 360px 360px;
+    grid-template-rows: 452px 452px;
+    gap: 44px 40px;
     background-color: #fff;
     width: 760px;
     margin: 70px 40px 44px;
@@ -829,6 +843,7 @@ body {
 
 .product-card-link {
     display: block;
+    height: 380px;
     margin-bottom: 32px;
     color: inherit;
     text-decoration: none;
@@ -846,6 +861,7 @@ body {
     font-size: 18px;
     line-height: 20px;
     letter-spacing: -0.02em;
+    margin-right: 0;
 }
 
 .product-card-price {
