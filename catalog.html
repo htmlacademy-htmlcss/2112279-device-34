@@ -13,7 +13,7 @@
             <img class="header-logo" src="images/logo.svg" width="145" height="36" alt="логотип магазина">
             <div class="navigation-container">
                 <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
-                    <input type="text" name="request" placeholder="текст поиска">
+                    <input class="field" type="text" name="request" placeholder="текст поиска">
                     <button class="button search-button" type="submit">найти</button>
                 </form>
                 <ul class="navigation-list user-list list-reset">
@@ -58,8 +58,12 @@
                     каталог товаров
                 </p>
                 <button class="button catalog-button" type="button">
-                    <img src="#" alt="кнопка развёртывания каталога">
-                </button>
+                    <div class="catalog-button-circle">
+                      <svg class="catalog-button-icon" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 7.4H9v-7H7v7H0v2h7v7h2v-7h7v-2Z" fill="#000" opacity="0.3"/>
+                      </svg>
+                    </div>
+                  </button>
                 <ul class="navigation-list navigation-list-services list-reset">
                     <li class="navigation-item navigation-item-services">
                         <a class="navigation-link" href="#">доставка</a>
